@@ -1,4 +1,5 @@
 // app.js
+const { SecretClient } = require('@azure/keyvault-secrets')
 const express = require('express');
 const app = express();
 const sql = require('mssql');
